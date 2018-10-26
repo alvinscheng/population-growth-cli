@@ -4,7 +4,7 @@ require "httparty"
 
 module PopulationGrowth
   class MyCLI < Thor
-    desc "hello [name]", "say my name"
+    desc "getPopData [zip]", "Describe population data based on zip"
     def getPopData(zip)
       response = HTTParty.get("https://alvin-pop-growth-api.herokuapp.com/", :query => {:zip => zip})
       puts response.body
