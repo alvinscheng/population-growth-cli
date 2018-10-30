@@ -3,7 +3,7 @@ require "thor"
 require "httparty"
 
 module PopulationGrowth
-  class MyCLI < Thor
+  class CLI < Thor
     desc "getPopData [zip]", "Describe population data based on zip"
     def getPopData(zip)
       response = HTTParty.get("https://alvin-pop-growth-api.herokuapp.com/", :query => {:zip => zip})
@@ -11,5 +11,3 @@ module PopulationGrowth
     end
   end
 end
-
-PopulationGrowth::MyCLI.start(ARGV)
