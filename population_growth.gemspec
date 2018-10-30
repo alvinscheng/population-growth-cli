@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ascheng21@gmail.com"]
 
   spec.summary       = "A CLI Ruby Gem to hit my population growth API"
-  spec.homepage      = "https://github.com/alvinscheng/population-growth-cli"
+  spec.homepage      = "https://rubygems.org/gems/alvin_population_growth"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
