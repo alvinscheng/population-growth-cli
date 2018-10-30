@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ascheng21@gmail.com"]
 
   spec.summary       = "A CLI Ruby Gem to hit my population growth API"
-  spec.homepage      = "https://github.com/alvinscheng/pop-growth-cli"
+  spec.homepage      = "https://github.com/alvinscheng/population-growth-cli"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
