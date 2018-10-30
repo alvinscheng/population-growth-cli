@@ -2,9 +2,15 @@
 
 Type in a zip code and get some population data back about it
 
+Client for population-growth-api (https://github.com/alvinscheng/population-growth-api)
+
 ## Installation
 
     $ gem install alvin_population_growth
+    
+If this fails due to permissions
+
+    $ sudo gem install alvin_population_growth
 
 ## Usage
 
